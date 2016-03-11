@@ -1,0 +1,19 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+		title Test BEM
+	body
+		style.
+			.a {color: red; opacity: 1;}
+			.a__ab {color: green; opacity: 0.7;}
+			.a__abc {color: blue; opacity: 0.5;}
+
+		- for(var i=0; i<100000; i++)
+			.a
+				p a
+				.a__ab
+					p ab
+					.a__abc
+						p abc
