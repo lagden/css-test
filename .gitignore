@@ -1,2 +1,2 @@
-bem.html
-rscss.html
+*.html
+.gh*
